@@ -2,6 +2,8 @@
 
 Landing page em React para divulgação e busca de instrutores credenciados, com identidade visual própria, filtros por categoria e preparação para deploy estático.
 
+![Preview do site](./SiteCompleto.png)
+
 ## Visão Geral
 
 O projeto foi desenvolvido para apresentar a marca DireCerto com uma interface mais forte, mais comercial e mais clara para o usuário final.
