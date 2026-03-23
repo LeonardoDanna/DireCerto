@@ -78,34 +78,6 @@ Os arquivos finais serão gerados em:
 dist/
 ```
 
-## Deploy
-
-Como o projeto é estático, o deploy pode ser feito em qualquer hospedagem que sirva HTML/CSS/JS.
-
-### Hostinger
-
-Fluxo recomendado:
-
-1. Rode `npm run build`
-2. Abra a pasta `dist`
-3. Envie o conteúdo de `dist` para `public_html`
-
-Importante:
-
-- envie os arquivos de dentro de `dist`, não a pasta `dist` como subpasta
-- `index.html` precisa ficar na raiz de `public_html`
-- a pasta `assets` precisa ir junto
-- os arquivos de marca exportados também precisam estar lá, como `DireCerto.png` e `DireCerto2.png`, se estiverem presentes no build
-
-Estrutura esperada no servidor:
-
-```text
-public_html/index.html
-public_html/assets/...
-public_html/DireCerto.png
-public_html/DireCerto2.png
-```
-
 ## Filtros
 
 Atualmente a busca considera:
@@ -122,8 +94,6 @@ Regras:
 - localização: filtra por texto presente no campo de região/bairro
 
 ## Destaques
-
-Nem todos os professores são destaque.
 
 O projeto usa uma separação entre:
 
@@ -155,15 +125,6 @@ Cada perfil possui campos como:
 - `availability`
 - `highlight`
 - `featured`
-
-## Personalização Rápida
-
-Se quiser adaptar o projeto rapidamente, os pontos mais comuns são:
-
-1. trocar os textos da home em [src/App.tsx](C:/Users/User/Documents/vs/DireCerto/src/App.tsx)
-2. substituir os perfis fictícios por dados reais
-3. ajustar o favicon em [index.html](C:/Users/User/Documents/vs/DireCerto/index.html)
-4. trocar as imagens da marca em `public/`
 
 ## Scripts
 
