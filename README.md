@@ -1,4 +1,4 @@
-# DireCerto
+# DireCerto 🛣️
 
 Landing page em React para divulgação e busca de instrutores credenciados, com identidade visual própria, filtros por categoria e preparação para deploy estático.
 
